@@ -21,6 +21,7 @@
                 </div>
             @endforeach
         </div>
+        <a href='/posts/create'>ブログ作成</a>
         <div class='paginate'>
             {{ $posts->links() }}
         </div>
