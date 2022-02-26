@@ -26,7 +26,7 @@
             [<span onclick="return deletepost(this);">削除</span>]
         </form>
         <div class='footer'>
-            <a href="/posts/{{ $post->id }}/edit">編集</a>
+            <a href='/posts/{{ $post->id }}/edit'>編集</a>
             <a href='/'>戻る</a>
         </div>
         <script>
